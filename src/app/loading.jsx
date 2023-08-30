@@ -1,11 +1,7 @@
-import React from "react";
-
-const loading = () => {
+export default function loading() {
   return (
     <div className="flex justify-center">
-      <h1>Loading ...</h1>
+      <img className="h-96" src="spinner.svg" alt="loading..." />
     </div>
   );
-};
-
-export default loading;
+}
